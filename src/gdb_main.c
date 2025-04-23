@@ -252,7 +252,7 @@ int32_t gdb_main_loop(target_controller_s *const tc, const gdb_packet_s *const p
 				if (length != 0)
 					gdb_put_packet_hex(val, length);
 				else
-					gdb_put_packet_error(0xffU);
+					gdb_put_packet_str("xx");
 			}
 		} else {
 			/**
