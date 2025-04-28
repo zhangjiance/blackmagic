@@ -153,7 +153,7 @@ TARGET_PROBE_WEAK_NOP(stm32mp15_ca7_probe)
 TARGET_PROBE_WEAK_NOP(stm32mp15_cm4_probe)
 TARGET_PROBE_WEAK_NOP(stm32wb0_probe)
 TARGET_PROBE_WEAK_NOP(zynq7_probe)
-TARGET_PROBE_WEAK_NOP(hpm_xip_probe)
+TARGET_PROBE_WEAK_NOP(hpm_xpi_probe)
 
 LPC55_DP_PREPARE_WEAK_NOP(lpc55_dp_prepare)
 

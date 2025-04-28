@@ -91,7 +91,7 @@ bool riscv32_probe(target_s *const target)
 	switch (target->designer_code) {
 	case JEP106_MANUFACTURER_RV_GIGADEVICE:
 		PROBE(gd32vf1_probe);
-		PROBE(hpm_xip_probe);
+		PROBE(hpm_xpi_probe);
 		break;
 	case JEP106_MANUFACTURER_RASPBERRY:
 		PROBE(rp2350_probe);
